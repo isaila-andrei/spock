@@ -5,7 +5,9 @@ import java.util.*;
 public class LambdaExample {
 
 	public static void main(String[] args) {
+
 		Integer[] numbers = {5, 12, 11, 7};
+
 		Arrays.sort(numbers, new Comparator<Integer>() {
 			
 			public int compare(Integer a, Integer b) {
