@@ -5,6 +5,7 @@ public class LearnJavaLambdaSyntax {
 	public static void main(String args[]) {
 		
 		SingleArgument sa1 =  n -> System.out.print(n);
+
 		sa1.foo("Let us all ");
 		sa1.foo("learn lambda syntax.\n");
 
