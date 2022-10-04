@@ -3,7 +3,8 @@ package com.mcnz.lambda;
 public class JavaLambdaSyntaxExample {
 
 	public static void main(String[] args) {
-		
+
+
 		lambdaFun( n -> System.out.print(n) );
 		
 		lambdaFun( (String n) -> System.out.print(n) );
